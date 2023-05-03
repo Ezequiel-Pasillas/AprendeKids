@@ -25,7 +25,7 @@ header{
 
 @font-face {
     font-family: lato;
-    src: url("/AprendeKids/Recursos/Lato-Black.ttf");
+    src: url("/Recursos/Lato-Black.ttf");
 }
 
 .botton-header{
@@ -249,7 +249,7 @@ button:hover{
 
 
 #fondo{
-    background-image: url("/AprendeKids/Recursos/pngtree-funny-garden-week-picture-image_1447787.jpg");
+    background-image: url("/Recursos/pngtree-funny-garden-week-picture-image_1447787.jpg");
     background-size: 100% 100%;
 }
 
