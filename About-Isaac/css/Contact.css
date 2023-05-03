@@ -112,7 +112,7 @@ animation: mover 1s infinite;
         transform: translateX(100%);
       }
       100% {
-        transform: translateX(-23%);
+        transform: translateX(-36%);
       }
   }
 

@@ -1,0 +1,19 @@
+#mi-div{
+    position: fixed;
+    width: 370px;
+    height: 150px;
+    top: 80%;
+    right: 4%;
+    background-color: aqua;
+    text-align: center;
+    border-radius: 25px;
+}
+
+#play{
+    width: 160px;
+    margin-top: 10px;
+}
+
+#pausa, #volumen #velocidad{
+    margin-top: 5px;
+}
