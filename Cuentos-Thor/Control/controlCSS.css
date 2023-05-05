@@ -11,9 +11,15 @@
 
 #play{
     width: 160px;
-    margin-top: 10px;
 }
 
 #pausa, #volumen #velocidad{
     margin-top: 5px;
+}
+
+#parrafo{
+    padding: 0px;
+    margin: 0px;
+    margin-top: 7px;
+    margin-bottom: 2px;
 }
