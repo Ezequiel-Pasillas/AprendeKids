@@ -3,6 +3,8 @@ const inputValor = document.getElementById('volumen');
 const btnVelocidad = document.getElementById('velocidad');
 var valor = 0.5; // variable que tomará el valor del input
 var valor_vel = 0.5;
+var pausar = document.getElementById("pausa");
+var revisar = false;
 function leerTexto(texto) {
     play.textContent = "Repetir";
     window.speechSynthesis.cancel();
@@ -20,14 +22,21 @@ function leerTexto(texto) {
         inputValor.addEventListener('input', (event) => {
           valor = event.target.value;
           mensaje.volume = valor;
+          window.speechSynthesis.cancel(); // Cancelar la síntesis de voz actual para actualizar la velocidad
+          window.speechSynthesis.speak(mensaje);
         });
+        
         btnVelocidad.addEventListener('input', (event) => {
           valor_vel = event.target.value;
           mensaje.rate = valor_vel;
+          window.speechSynthesis.cancel(); // Cancelar la síntesis de voz actual para actualizar la velocidad
+         window.speechSynthesis.speak(mensaje);
         });
       }
     }
-  
+    
+    
+
     mensaje.text = partes[parteActual].trim() + ".";
     window.speechSynthesis.speak(mensaje);
   }
@@ -41,16 +50,13 @@ function leerTexto(texto) {
 
 
     //boton para pausar
-var pausar = document.getElementById("pausa");
-var revisar = false;
-function pausa(){
-    if(pausar.textContent == "Pausa"){
-    window.speechSynthesis.pause();
-    pausar.textContent = "Seguir";
-    }
-    else if(pausar.textContent == "Seguir"){
-        window.speechSynthesis.resume();
-        pausar.textContent = "Pausa";
-        }
-}
-
+    function pausa(){
+      if(pausar.textContent == "Pausa"){
+      window.speechSynthesis.pause();
+      pausar.textContent = "Seguir";
+      }
+      else if(pausar.textContent == "Seguir"){
+          window.speechSynthesis.resume();
+          pausar.textContent = "Pausa";
+          }
+  }
