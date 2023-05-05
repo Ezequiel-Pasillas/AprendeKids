@@ -25,6 +25,15 @@ header{
     
 }
 
+.boton-casa{
+    width: 80px;
+    height: 100%;
+    margin-top: -0.2%;
+    background-color: rgba(254,205,26,255);
+    border: 0;
+    
+}
+
 @font-face {
     font-family: lato;
     src: url("/AprendeKids/Home-Ezequiel/Recursos/Lato-Black.ttf");
@@ -305,6 +314,17 @@ p{
 
 #boton-home:hover{
     width: 80px;
+    height: 100%;
+    margin-top: -0.2%;
+    background-color: rgba(230, 184, 20, 255);
+    border: 0;
+    
+}
+
+.boton-casa:hover{
+    width: 80px;
+    height: 100%;
+    margin-top: -0.2%;
     background-color: rgba(230, 184, 20, 255);
     border: 0;
     

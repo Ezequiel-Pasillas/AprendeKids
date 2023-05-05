@@ -9,14 +9,14 @@
     <link rel="shortcut icon" href="/AprendeKids/Juegos-Cesar/Resources/Images/Logo.png" type="image/x-icon">
     <script src="/AprendeKids/Home-Ezequiel/Js/script.js"></script>
 </head>
-<body>
+<body onload="leerTexto('¡Hola! Soy Zumbi. ¿Qué quieres hacer hoy?')">
     <header>
-        <a href="/AprendeKids/Home-Ezequiel/Html/index.html"><button id="boton-home"> <img src="/AprendeKids/Home-Ezequiel/Recursos/hogar.png" alt="Icono de Home"> </button> </a>
+        <a href="/AprendeKids/Home-Ezequiel/Html/index.html"><button onmouseenter="leerTexto('¡A casa!')" class="boton-casa"> <img src="/AprendeKids/Home-Ezequiel/Recursos/hogar.png" alt="Icono de Home"> </button> </a>
     
-        <a href="/AprendeKids/About-Isaac/Html/contact.html"> <button class="botton-header"> Contacto </button> </a>        
-        <a href="/AprendeKids/Juegos-Cesar/Html/juegos.html"><button class="botton-header"> Juegos </button></a>
-        <a href="/AprendeKids/Cuentos-Thor/cuentos.html"> <button class="botton-header"> Cuentos </button> </a>
-        <a href="#"> <button class="botton-header"> Historia </button> </a>
+        <a href="/AprendeKids/About-Isaac/Html/contact.html"> <button onmouseenter="leerTexto('Contacto')" class="botton-header"> Contacto </button> </a>        
+        <a href="/AprendeKids/Juegos-Cesar/Html/juegos.html"><button onmouseenter="leerTexto('Juegos')" class="botton-header"> Juegos </button></a>
+        <a href="/AprendeKids/Cuentos-Thor/cuentos.html"> <button onmouseenter="leerTexto('Cuentos')" class="botton-header"> Cuentos </button> </a>
+        <a href="#"> <button onmouseenter="leerTexto('Historia')" class="botton-header"> Historia </button> </a>
 
         
     </header>
@@ -40,8 +40,8 @@
                         <h2>¿Qué quieres hacer hoy?</h2>
 
                     <section id="inputs">                        
-                        <a href="/AprendeKids/Juegos-Cesar/Html/juegos.html"><button id="botonAprender">¡Vamos a aprender!</button></a> 
-                        <a href="/AprendeKids/Cuentos-Thor/cuentos.html"><button id="botonAprender">¡Vamos a leer!</button></a> 
+                        <a href="/AprendeKids/Juegos-Cesar/Html/juegos.html"><button id="botonAprender" onmouseenter="leerTexto('¡Vamos a aprender!')">¡Vamos a aprender!</button></a> 
+                        <a href="/AprendeKids/Cuentos-Thor/cuentos.html"><button id="botonAprender" onmouseenter="leerTexto('¡Vamos a leer!')">¡Vamos a leer!</button></a> 
                     </section>   
                 </section>
                 
@@ -61,5 +61,8 @@
     <footer>
          <img class="mancha-rosa" id="mancha-r" src="/AprendeKids/Home-Ezequiel/Recursos/Posteo para Instagram Tienda de Ropa para niños (1).png" alt="Mancha de color rosa">
     </footer>
+
+    <script src="/AprendeKids/About-Isaac/Js/lector.js">   //lector
+    </script>
 </body>
 </html>
