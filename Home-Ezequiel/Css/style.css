@@ -278,8 +278,7 @@ button:hover{
     height: 10%;
     background-color: #40807E;
     color: white;
-    margin-top: 75%;
-    margin-left: 90%;
+    margin-left: 30%;
     font-family: lato;
     font-size: 22px;
     text-align: center;
@@ -298,8 +297,7 @@ p{
     height: 10%;
     background-color: rgba(162, 211, 219, 255);
     color: white;
-    margin-top: 75%;
-    margin-left: 90%;
+    margin-left: 30%;
     font-family: lato;
     text-align: center;
     font-size: 22px;
