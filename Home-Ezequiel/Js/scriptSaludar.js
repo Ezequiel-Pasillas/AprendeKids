@@ -1,9 +1,7 @@
-const module = require('./script');
-
-function escribe(){    
-        var etiquetaP = document.getElementById("prueba");
-        etiquetaP.innerHTML = archivo1.nombreGuardado;
-}
-// ejecución de la función cuando se carga la página
-escribe();
-    
+function leerTexto(texto) {
+        //sacar valor de un texto
+        //var texto = document.getElementById("titulo_texto").textContent;
+        var mensaje = new SpeechSynthesisUtterance(texto);
+        var sintesisDeVoz = window.speechSynthesis;
+        sintesisDeVoz.speak(mensaje);
+        }
