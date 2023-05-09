@@ -1,0 +1,168 @@
+*{
+    padding: 0%;
+    margin: 0%;    
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+@font-face {
+    font-family: lato;
+    src: url("Lato-BlackItalic.ttf");
+}
+
+@font-face {
+    font-family: League Spartan;
+    src: url(LeagueSpartan-Black.ttf);
+}
+
+#spot{
+    width: 25%;
+    height: 35%;
+    float: left;
+    
+}
+
+.mancha{
+    width: 350px;
+}
+
+#main{
+    width: 65%;
+    height: 100%;
+    float: left;
+}
+
+
+#logo{
+     float: right;
+}
+
+.nino{
+    width: 30%;
+    height: 30%;
+    float: right;
+}
+
+.top{
+    width: 50%;
+    height: 135%;
+
+}
+
+.nosotros{
+    width: auto;
+    height: 42%;
+}
+
+h1{
+    font-size: 30px;
+    text-align: center;
+    color: gray;
+      
+}
+
+.mancha_rosa{
+    width: 40%;
+    height: 40%;
+}
+
+.mancha_rosa{
+    width: 400px;
+}
+
+h2{
+    font-size: 60px;
+    color:rgba(98, 213, 221, 0.92);
+}
+
+.abajo{
+    height: 15%;
+}
+
+
+
+.separacion{
+    height: 10%;
+
+}
+
+.color1{
+    background-color: #f5AEAE;
+}
+
+.espacio{
+    height: 75px;
+}
+
+.color2{
+    background-color: #FFC300;
+}
+
+
+.color3{
+    background-color: #AAE6F4;
+}
+
+.mancha-alreves{
+    width: 10%;
+    height: auto;
+}
+
+.abeja{
+    margin-top: -15%;
+    width: 15%;
+    height: auto;
+    float: right;
+}
+
+.motivacion{
+    margin-top: -10%;
+}
+
+.aprender{
+    font-size: 40px;
+}
+
+.aplicacion{
+    margin-top: 8%;
+    font-size: 30px;
+}
+
+h5{
+    color:rgba(98, 213, 221, 0.92);
+}
+
+.montaña{
+    float: right;
+    margin-top: -10%;
+}
+
+.web{
+    margin-top: 25%;
+}
+
+.abeja_{
+    margin-top: 5%;
+    width: 15%;
+    height: auto;
+    float: right;
+}
+
+.aprendamos{
+    width: 64%;
+    margin-top: 14%;
+    text-align: right;
+}
+
+
+
+.log{
+    width: 15%;
+    height: auto;
+    display: block;
+    margin: auto;
+    margin-top: 8%;
+}
