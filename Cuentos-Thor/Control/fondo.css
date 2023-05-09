@@ -1,9 +1,24 @@
 #fondo1{
-    height: 100%;
+    height: 50%;
     width: 100%;
-    background-image: url("../../Fondos/Cuento1abajo.png");
+    background-image: url("../../Fondos/cuento1abajo.png");
     background-size: 100%;
 }
+
+.fondoCuerpo1{
+    
+    width: 100%;
+    background-image: url("../../Fondos/fondo1.png");
+    background-size: 100%;
+}
+
+.fondoCuerpo2{
+    
+    width: 100%;
+    background-image: url("../../Fondos/fondo2.png");
+    background-size: 100%;
+}
+
 
 #fondo2{
     height: 100%;
