@@ -26,12 +26,13 @@
 }
 
 .botton-comenzar{
-  font-family: League Spartan;
+  font-family: Sensei;
+  src: url("../Fonts/Sensei-Medium.ttf");
   font-weight:bold;
   font-size: 58px;
   width: 500px;
-  background-color:  rgb(189, 43, 43);
-  color: rgb(204, 255, 0);
+  background-color:  #40807E;
+  color: white;
   border-radius: 10px;
 }
 
@@ -117,4 +118,15 @@
   width: 100%;
   height: 10%;
   background-color: rgba(darkblue);
+}
+
+.botton-comenzar:hover{
+  font-family: Sensei;
+  src: url("../Fonts/Sensei-Medium.ttf");
+  font-weight:bold;
+  font-size: 58px;
+  width: 500px;
+  background-color:  #85B1B1;
+  color: white;
+  border-radius: 10px;
 }

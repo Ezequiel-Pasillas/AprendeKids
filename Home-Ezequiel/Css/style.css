@@ -249,6 +249,8 @@ h2{
 #inputs{
     display: inline-block;
     animation: fadeIn 1s ease;
+    height: 100%;
+    
 }
 
 #nombreUsuario{
@@ -272,6 +274,8 @@ button:hover{
 }
 #aparecer{
     display: none;
+    height: 50%;
+    
 }
 
 
@@ -284,7 +288,7 @@ button:hover{
 
 #botonAprender{
     width: 60%;
-    height: 10%;
+    height: 30%;
     background-color: #40807E;
     color: white;
     margin-left: 30%;
@@ -303,7 +307,7 @@ p{
 
 #botonAprender:hover{
     width: 60%;
-    height: 10%;
+    height: 30%;
     background-color: rgba(162, 211, 219, 255);
     color: white;
     margin-left: 30%;
