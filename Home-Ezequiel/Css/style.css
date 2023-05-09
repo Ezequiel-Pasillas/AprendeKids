@@ -36,7 +36,7 @@ header{
 
 @font-face {
     font-family: lato;
-    src: url("/AprendeKids/Home-Ezequiel/Recursos/Lato-Black.ttf");
+    src: url("../../Home-Ezequiel/Recursos/Lato-Black.ttf");
 }
 
 .botton-header{
