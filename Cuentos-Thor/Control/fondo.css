@@ -1,0 +1,84 @@
+#fondo1{
+    height: 100%;
+    width: 100%;
+    background-image: url("../../Fondos/Cuento1abajo.png");
+    background-size: 100%;
+}
+
+#fondo2{
+    height: 100%;
+    width: 100%;
+    background-image: url("../../Fondos/cuento2abajo.png");
+    background-size: 100%;
+}
+
+
+#fondo3{
+    height: 100%;
+    width: 100%;
+    background-image: url("../../Fondos/Cuento3abajo.png");
+    background-size: 100%;
+}
+
+
+#fondo4{
+    height: 100%;
+    width: 100%;
+    background-image: url("../../Fondos/Cuento4abajo.png");
+    background-size: 100%;
+}
+
+
+#fondo5{
+    height: 100%;
+    width: 100%;
+    background-image: url("../../Fondos/Cuento5abajo.png");
+    background-size: 100%;
+}
+
+
+.seleccion-cuentos{
+    width: 150%;
+    height: 30%;
+    background-color: #40807E;
+    border: 0;
+    color: white;
+    font-family: lato;
+    font-size: 22px;   
+    margin-right: 200%;
+}
+
+.sigamos{
+    width: 150%;
+    height: 30%;
+    background-color: #40807E;
+    border: 0;
+    color: white;
+    font-family: lato;
+    font-size: 22px;   
+    margin-right: 50%;
+}
+
+
+
+.aCasa{
+    width: 150%;
+    height: 30%;
+    background-color: #40807E;
+    border: 0;
+    color: white;
+    font-family: lato;
+    font-size: 22px;   
+    margin-top: 100%;
+    margin-right: 200%;
+}
+
+.seleccion-cuentos:hover{
+    width: 150%;
+    height: 30%;
+    background-color: rgba(162, 211, 219, 255);;
+    border: 0;
+    color: white;
+    font-family: lato;
+    font-size: 22px;   
+}
