@@ -230,3 +230,25 @@ h5{
     font-family: lato;
     font-size: 22px;
 }
+
+#botonAprender{
+    width: 20%;
+    height: 10%;
+    background-color: #40807E;
+    color: white;
+    margin: 0%;
+    font-family: lato;
+    font-size: 22px;
+    text-align: center;
+}
+
+#botonAprender:hover{
+    width: 20%;
+    height: 10%;
+    background-color: rgba(162, 211, 219, 255);
+    color: white;
+    font-family: lato;
+    text-align: center;
+    font-size: 22px;
+    margin: 0%;
+}
