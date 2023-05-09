@@ -10,6 +10,7 @@
     integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <link rel="stylesheet" href="/Cuentos-Thor/Resources/Css/estiloscuen.css">
     <link rel="shortcut icon" href="/Cuentos-Thor/Resources/Images/Logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="Control/controlCSS.css">
     <script src="../Home-Ezequiel/Js/scriptSaludar.js">   //lector</script>
     <link rel="stylesheet" href="../Home-Ezequiel/Css/style.css">
 </head>
@@ -174,6 +175,20 @@
         <br>
     </div>
 
+    <div id="mi-div">
+        <p id="parrafo">Control de cuento</p>
+        <button id="play" onclick="pasarcuento()">Iniciar</button>
+        <button id="pausa" onclick="pausa()"><img src="Resources/Images/boton-de-play.png" alt="Play/pausa" width="17px" height="17px"></button><br>
+        <label for="volumen">Volumen:</label><br>
+        <img src="Resources/Images/volumen-bajo.png" alt="bajarvolumen" width="17px" height="17px">    
+        <input type="range" id="volumen" name="volumen" min="0.1" max="1" step="0.1" value="0.5">
+        <img src="Resources/Images/alto-volumen.png" alt="subirVolumen" width="17px" height="17px"><br>
+        <label for="velocidad">Velocidad:</label><br>
+        <img src="Resources/Images/tortuga.png" alt="bajarvolumen" width="31px" height="31px">  
+            <input type="range" id="velocidad" name="velocidad" min="0.1" max="1" step="0.1" value="0.5">
+            <img src="Resources/Images/conejo-de-pascua.png" alt="bajarvolumen" width="24px" height="24px">  
+      </div>
+
     <div class="container ">
         <div class="logo row justify-content-md-center">
             <div class="col col-md-auto">
@@ -181,7 +196,7 @@
         </div>
         </div>
     </div>
-
+    <script src="../About-Isaac/Js/lector.js"></script>
     <script>
         function pasarcuento() {
                 leerTexto("Había una vez en la selva un pequeño cocodrilo llamado Cocos. A diferencia de otros cocodrilos, Cocos no le gustaba estar solo y siempre buscaba amigos con quien jugar. Sin embargo, los demás animales de la selva se mostraban asustados de él debido a su aspecto feroz. Un día, Cocos decidió que quería tener amigos y decidió ir en busca de alguno. Caminó por la selva, pero cada vez que se acercaba a otros animales, ellos huían asustados por sus dientes afilados y su apariencia temible. Triste y desanimado, Cocos se sentó junto a un río y se puso a llorar. Fue entonces cuando escuchó un sonido suave y cercano. Se levantó y vio a un pequeño mono llamado Mono, que estaba atrapado en una rama alta del árbol. Cocos se acercó con cuidado y usó su fuerte mandíbula para romper la rama y liberar a Mono. Desde ese momento, Mono y Cocos se hicieron amigos. Mono se dio cuenta de que Cocos no era tan feroz como parecía y que en realidad tenía un gran corazón. Desde ese día, Cocos y Mono se volvieron inseparables. Jugaron juntos en la selva, treparon a los árboles, nadaron en el río y compartieron muchas aventuras. Cocos aprendió mucho sobre la importancia de la amistad y cómo las apariencias pueden engañar. Un día, mientras Cocos y Mono exploraban la selva, escucharon a un pequeño ratón llamado Ratón llorar. Ratón había perdido su hogar y no sabía cómo encontrarlo. Cocos y Mono se ofrecieron a ayudarlo y juntos buscaron por toda la selva hasta encontrar la madriguera de Ratón. Ratón estaba agradecido y se convirtió en otro amigo más para Cocos. Ahora, Cocos, Mono y Ratón eran inseparables y siempre estaban juntos, compartiendo risas y aventuras. Con el tiempo, otros animales de la selva se dieron cuenta de que Cocos no era peligroso, sino que era un gran amigo. Pronto, más animales se unieron a su grupo y Cocos se convirtió en el líder de una pandilla llena de amigos diferentes. Desde ese día, Cocos vivió felizmente en la selva rodeado de amigos de todas las especies. Aprendió que la verdadera amistad no se basa en la apariencia, sino en el corazón y las acciones. Y así, Cocos, el pequeño cocodrilo, se convirtió en un verdadero aprendiz de amigo. Fin. ");

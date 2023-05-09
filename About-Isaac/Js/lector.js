@@ -5,8 +5,17 @@ var valor = 0.5; // variable que tomará el valor del input
 var valor_vel = 0.5;
 var pausar = document.getElementById("pausa");
 var revisar = false;
+var empezar = document.getElementById("play");
+var div = document.getElementById("mi-div");
+
+//animacion inicial
+empezar.addEventListener("click", function() {
+  play.textContent = "Repetir";
+  div.classList.add("animacion");
+});
+
+//reproducir texto
 function leerTexto(texto) {
-    play.textContent = "Repetir";
     window.speechSynthesis.cancel();
     var partes = texto.split(".");
     var parteActual = 0;
@@ -48,15 +57,18 @@ function leerTexto(texto) {
   window.speechSynthesis.cancel();
 });
 
+var cambio = 0;
 
     //boton para pausar
     function pausa(){
-      if(pausar.textContent == "Pausa"){
+      if(cambio == 0){
       window.speechSynthesis.pause();
-      pausar.textContent = "Seguir";
+      pausar.getElementsByTagName("img")[0].src = "Resources/Images/pausa.png"
+      cambio = 1;
       }
-      else if(pausar.textContent == "Seguir"){
+      else if(cambio == 1){
           window.speechSynthesis.resume();
-          pausar.textContent = "Pausa";
+          pausar.getElementsByTagName("img")[0].src = "Resources/Images/boton-de-play.png"
+          cambio = 0;
           }
   }

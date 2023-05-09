@@ -2,9 +2,9 @@
     position: fixed;
     width: 370px;
     height: 150px;
-    top: 80%;
-    right: 4%;
-    background-color: aqua;
+    top: 92%;
+    right: 2%;
+    background-color: rgba(10, 245, 253, 0.616);
     text-align: center;
     border-radius: 25px;
 }
@@ -14,12 +14,31 @@
 }
 
 #pausa, #volumen #velocidad{
-    margin-top: 5px;
+    padding: 0px;
+    margin: 0px;
+}
+
+#pausa{
+    padding-left: 85px;
+    background-color: transparent;
 }
 
 #parrafo{
     padding: 0px;
-    margin: 0px;
-    margin-top: 7px;
-    margin-bottom: 2px;
+    margin: 3px;
+}
+  
+  @keyframes subir {
+    from {transform: translateY(0%); }
+  to { transform: translateY(-66%); }
+  }
+
+.animacion{
+    animation: subir 2s forwards;
+    animation-name: subir;
+    animation-duration: 2s;
+}
+
+#mi-div button{
+    border-radius: 25px;
 }

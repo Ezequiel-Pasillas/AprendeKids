@@ -10,6 +10,7 @@
     integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <link rel="stylesheet" href="/AprendeKids/Cuentos-Thor/Resources/Css/estiloscuen.css">
     <link rel="shortcut icon" href="/AprendeKids/Cuentos-Thor/Resources/Images/Logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="Control/controlCSS.css">
     <script src="../Home-Ezequiel/Js/scriptSaludar.js">   //lector</script>
     <link rel="stylesheet" href="../Home-Ezequiel/Css/style.css">
 
@@ -164,6 +165,20 @@
         <br>
     </div>
 
+    <div id="mi-div">
+        <p id="parrafo">Control de cuento</p>
+        <button id="play" onclick="pasarcuento()">Iniciar</button>
+        <button id="pausa" onclick="pausa()"><img src="Resources/Images/boton-de-play.png" alt="Play/pausa" width="17px" height="17px"></button><br>
+        <label for="volumen">Volumen:</label><br>
+        <img src="Resources/Images/volumen-bajo.png" alt="bajarvolumen" width="17px" height="17px">    
+        <input type="range" id="volumen" name="volumen" min="0.1" max="1" step="0.1" value="0.5">
+        <img src="Resources/Images/alto-volumen.png" alt="subirVolumen" width="17px" height="17px"><br>
+        <label for="velocidad">Velocidad:</label><br>
+        <img src="Resources/Images/tortuga.png" alt="bajarvolumen" width="31px" height="31px">  
+            <input type="range" id="velocidad" name="velocidad" min="0.1" max="1" step="0.1" value="0.5">
+            <img src="Resources/Images/conejo-de-pascua.png" alt="bajarvolumen" width="24px" height="24px">  
+      </div>
+
     <div class="container ">
         <div class="logo row justify-content-md-center">
             <div class="col col-md-auto">
@@ -172,7 +187,7 @@
         </div>
     </div>
 
-    
+    <script src="../About-Isaac/Js/lector.js"></script>
     <script>
         function pasarcuento() {
                 leerTexto("Había una vez un pequeño elefante llamado Elefantito que vivía en una selva exuberante. Aunque era el elefante más pequeño de su manada, tenía un gran corazón y siempre estaba ansioso por explorar el mundo que lo rodeaba. Un día, mientras caminaba por la selva, Elefantito escuchó un sonido proveniente de lo profundo del bosque. Decidió seguirlo y pronto descubrió que se trataba de un pequeño mono bebé que estaba perdido y llorando. Elefantito se acercó con cuidado y preguntó si necesitaba ayuda. El mono bebé, llamado Monito, le explicó que se había separado de su familia mientras jugaban y no sabía cómo regresar a casa. Elefantito sintió compasión por Monito y decidió ayudarlo. Juntos, emprendieron una emocionante aventura en la selva, siguiendo rastros y pistas para encontrar el camino de regreso a la familia de Monito. En su travesía, Elefantito y Monito se encontraron con varios desafíos, como cruzar un río caudaloso y sortear la espesa vegetación de la selva. Pero con la valentía de Elefantito y la agilidad de Monito, superaron todos los obstáculos que se les presentaron. Después de un día lleno de aventuras, finalmente encontraron a la familia de Monito. Los monos estaban muy agradecidos y alegres de reunirse con su pequeño miembro perdido. Monito les presentó a Elefantito, su nuevo amigo, y todos celebraron juntos. Elefantito y Monito regresaron a su hogar en la selva, felices de haber vivido una emocionante aventura juntos. Desde ese día, se volvieron inseparables y compartieron muchas más aventuras en la selva, explorando todos los rincones y conociendo a otros animales. Elefantito aprendió la importancia de ayudar a los demás y la valentía que se necesita para enfrentar los desafíos. Monito aprendió que siempre es bueno pedir ayuda cuando estamos perdidos. Juntos, aprendieron que la amistad y la colaboración son esenciales en la vida. Y así, Elefantito y Monito vivieron felices en la selva, compartiendo risas y aventuras todos los días. Fin. ");
