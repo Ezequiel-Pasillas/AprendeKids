@@ -13,17 +13,24 @@
   font-family: League Spartan;
   src: url("../Fonts/LeagueSpartan-VariableFont_wght.ttf");
 }
+
+
+#botones-header{
+  height: 100%;
+  width: 40%;
+  float: right;
+}
+
 .botton-header{
+  width: 22.5%;
+  height: 92%;
+  border: 0;
+  background-color: rgba(254,205,26,255);
+  color: white;
   font-family: lato;
   font-size: 22px;
-  width: 10%;
-  height: 80px;
-  float: right;
-  border: 0;
-  background-color:  rgba(59, 32, 124, 0);
-  color: white;
-
 }
+
 
 .botton-comenzar{
   font-family: Sensei;
@@ -129,4 +136,14 @@
   background-color:  #85B1B1;
   color: white;
   border-radius: 10px;
+}
+
+.botton-header:hover{
+  width: 22.5%;
+  height: 92%;
+  border: 0;
+  background-color: rgba(230, 184, 20, 255);
+  color: white;
+  font-family: lato;
+  font-size: 22px;
 }

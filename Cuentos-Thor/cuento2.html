@@ -21,10 +21,12 @@
 <body onload="leerTexto('¡Zumbi, la Pequeña Abeja y la Aventura en el Bosque Encantado')">
     <header>
         <a href="../../Home-Ezequiel/Html/index.html"><button onmouseenter="leerTexto('¡A casa!')" class="boton-casa"> <img src="../../Home-Ezequiel/Recursos/hogar.png" alt="Icono de Home"> </button> </a>
-        <a href="../../About-Isaac/Html/contact.html"> <button onmouseenter="leerTexto('Contacto')" class="botton-header"> Contacto </button> </a>        
-        <a href="../../Juegos-Cesar/Html/juegos.html"><button onmouseenter="leerTexto('Juegos')" class="botton-header"> Juegos </button></a>
-        <a href="../../Cuentos-Thor/cuentos.html"> <button onmouseenter="leerTexto('Cuentos')" class="botton-header"> Cuentos </button> </a>
-        <a href="#"> <button onmouseenter="leerTexto('Historia')" class="botton-header"> Historia </button> </a>
+        <section id="botones-header">
+            <a href="../../Historias-Dante/historias.html"> <button class="botton-header" id="boton-historia" onmouseenter="hoverhistoria(), leerTexto('Historia')" onmouseleave="apagarHoverhistoria()"> Historia </button> </a>
+            <a href="../../Cuentos-Thor/cuentos.html"> <button class="botton-header" id="boton-cuentos" onmouseenter="hovercuentos(),  leerTexto('Cuentos')" onmouseleave="apagarHovercuentos()"> Cuentos </button> </a>
+            <a href="../../Juegos-Cesar/Html/juegos.html"><button class="botton-header" id="boton-juegos"onmouseenter="hoverjuegos(), leerTexto('Juegos')" onmouseleave="apagarHoverjuegos()" > Juegos </button></a>
+            <a href="../../About-Isaac/Html/contact.html"> <button class="botton-header" id="boton-contacto" onmouseenter="hovercontacto(), leerTexto('Contacto')" onmouseleave="apagarHovercontacto()"> Contacto </button> </a>        
+        </section>                
     </header>
 <div>
     <div class="bg-light" id="fondoc2"></div>
@@ -158,25 +160,25 @@
             <div class="anim col col-md-auto">
                 <a href="/Cuentos-Thor/cuento1.html">
                     <img src="../Botones/regresar.png" 
-                    height="240" width="340" alt="" onmouseenter="leerTexto('¡Regresemos!')">
+                    height="240" width="340" alt="Regresar" onmouseenter="leerTexto('¡Regresemos!')">
                 </a>
             </div>
             <div class="anim col col-md-auto">
                 <a href="/Cuentos-Thor/cuentos.html">
                     <img src="../Botones/seleccion.png" 
-                    height="240" width="340" alt="" onmouseenter="leerTexto('Selección de cuentos')">
+                    height="240" width="340" alt="Seleccion de cuentos" onmouseenter="leerTexto('Selección de cuentos')">
                 </a>
             </div>
             <div class="anim col col-md-auto">
                 <a href="/Cuentos-Thor/cuento3.html">
                     <img src="../Botones/adelante.png" 
-                    height="240" width="340" alt="" onmouseenter="leerTexto('Adelante!')">
+                    height="240" width="340" alt="Adelante" onmouseenter="leerTexto('Adelante!')">
                 </a>
             </div>
             <div class="anim col col-md-auto">
                 <a href="../Home-Ezequiel/Html/index.html">
                     <img src="../Botones/casa.png" 
-                    height="180" width="340" alt="" onmouseenter="leerTexto('¡A casa!')">
+                    height="180" width="340" alt="A casa" onmouseenter="leerTexto('¡A casa!')">
                 </a>
             </div>
         </div>

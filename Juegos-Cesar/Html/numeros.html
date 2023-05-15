@@ -14,10 +14,12 @@
 <body onload="leerTexto('¿Qué quieres aprender hoy?')">
     <header>
         <a href="../../Home-Ezequiel/Html/index.html"><button onmouseenter="leerTexto('¡A casa!')" class="boton-casa"> <img src="../../Home-Ezequiel/Recursos/hogar.png" alt="Icono de Home"> </button> </a>
-        <a href="../../About-Isaac/Html/contact.html"> <button onmouseenter="leerTexto('Contacto')" class="botton-header"> Contacto </button> </a>        
-        <a href="../../Juegos-Cesar/Html/juegos.html"><button onmouseenter="leerTexto('Juegos')" class="botton-header"> Juegos </button></a>
-        <a href="../../Cuentos-Thor/cuentos.html"> <button onmouseenter="leerTexto('Cuentos')" class="botton-header"> Cuentos </button> </a>
-        <a href="../../Historias-Dante/historias.html"> <button onmouseenter="leerTexto('Historia')" class="botton-header"> Historia </button> </a>
+        <section id="botones-header">
+            <a href="../../Historias-Dante/historias.html"> <button class="botton-header" id="boton-historia" onmouseenter="hoverhistoria(), leerTexto('Historia')" onmouseleave="apagarHoverhistoria()"> Historia </button> </a>
+            <a href="../../Cuentos-Thor/cuentos.html"> <button class="botton-header" id="boton-cuentos" onmouseenter="hovercuentos(),  leerTexto('Cuentos')" onmouseleave="apagarHovercuentos()"> Cuentos </button> </a>
+            <a href="../../Juegos-Cesar/Html/juegos.html"><button class="botton-header" id="boton-juegos"onmouseenter="hoverjuegos(), leerTexto('Juegos')" onmouseleave="apagarHoverjuegos()" > Juegos </button></a>
+            <a href="../../About-Isaac/Html/contact.html"> <button class="botton-header" id="boton-contacto" onmouseenter="hovercontacto(), leerTexto('Contacto')" onmouseleave="apagarHovercontacto()"> Contacto </button> </a>        
+        </section>                
     </header>
     <div class="container">
         <p class="text-center text-juego mt-5">¡Elige un juego!</p>

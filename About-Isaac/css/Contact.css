@@ -35,16 +35,22 @@ header{
   
 }
 
-.botton-header{
-  width: 10%;
-  height: 93%;
+#botones-header{
+  height: 100%;
+  width: 40%;
   float: right;
+}
+
+.botton-header{
+  width: 22.5%;
+  height: 92%;
   border: 0;
   background-color: rgba(254,205,26,255);
   color: white;
   font-family: lato;
   font-size: 22px;
 }
+
 
 .botton-header:hover{
     background-color: rgba(239, 196, 41, 255);
@@ -173,9 +179,8 @@ animation: mover 1s infinite;
 }
 
 .botton-header:hover{
-  width: 10%;
-  height: 93%;
-  float: right;
+  width: 22.5%;
+  height: 92%;
   border: 0;
   background-color: rgba(230, 184, 20, 255);
   color: white;

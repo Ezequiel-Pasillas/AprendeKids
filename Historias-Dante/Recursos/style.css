@@ -32,10 +32,15 @@ header{
     
 }
 
-.botton-header{
-    width: 10%;
+#botones-header{
     height: 100%;
+    width: 40%;
     float: right;
+}
+
+.botton-header{
+    width: 22.5%;
+    height: 92%;
     border: 0;
     background-color: rgba(254,205,26,255);
     color: white;
@@ -231,16 +236,14 @@ h5{
 }
 
 .botton-header:hover{
-    width: 10%;
-    height: 100%;
-    float: right;
+    width: 22.5%;
+    height: 92%;
     border: 0;
     background-color: rgba(230, 184, 20, 255);
     color: white;
     font-family: lato;
     font-size: 22px;
 }
-
 #botonAprender{
     width: 20%;
     height: 40%;
